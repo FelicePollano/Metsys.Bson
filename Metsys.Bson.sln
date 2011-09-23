@@ -5,7 +5,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metsys.Bson", "Metsys.Bson\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metsys.Bson.Tests", "Metsys.Bson.Tests\Metsys.Bson.Tests.csproj", "{EAB26123-53C0-414A-92DF-B84A27A5E50A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metsys.Bson.VStest", "Metsys.Bson.VStest\Metsys.Bson.VStest.csproj", "{A3444239-A1A5-440D-8F36-27CE10868EA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB6587DD-7CE7-4061-AC9F-C4E4DA704109}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		Metsys.Bson.vsmdi = Metsys.Bson.vsmdi
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Metsys.Bson.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -19,6 +30,10 @@ Global
 		{EAB26123-53C0-414A-92DF-B84A27A5E50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAB26123-53C0-414A-92DF-B84A27A5E50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAB26123-53C0-414A-92DF-B84A27A5E50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3444239-A1A5-440D-8F36-27CE10868EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3444239-A1A5-440D-8F36-27CE10868EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3444239-A1A5-440D-8F36-27CE10868EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3444239-A1A5-440D-8F36-27CE10868EA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
