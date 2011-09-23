@@ -68,7 +68,7 @@ namespace Metsys.Bson.VStest
         public void ArrayOrig()
         {
             var array = new byte[] { 1, 2, 3, 100, 94 };
-            var input = Serializer.Serialize(new { ByteArray = array });
+            var input = Serializer.Serialize(array);
             var o = Deserializer.Deserialize<byte[]>(input);
             Assert.AreEqual(array, o);
         }
